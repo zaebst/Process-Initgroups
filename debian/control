@@ -1,0 +1,17 @@
+Source: libprocess-initgroups-perl
+Section: perl
+Priority: optional
+Maintainer: dave <dave@debian>
+Build-Depends: debhelper (>= 8),
+ perl
+Standards-Version: 3.9.2
+Homepage: http://search.cpan.org/dist/Process-Initgroups/
+
+Package: libprocess-initgroups-perl
+Architecture: any
+Depends: ${misc:Depends}, ${perl:Depends}, ${shlibs:Depends}
+Description: Perl extension to use the c function initgroups found on most linux like systems.
+ Runs initgroups found on most unix/linux systems. Return codes are the same
+ as POSIX return codes. Failure: undef. Success: "0 but true"
+ .
+ This description was automagically extracted from the module by dh-make-perl.

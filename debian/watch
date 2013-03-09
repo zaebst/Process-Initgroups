@@ -1,0 +1,2 @@
+version=3
+http://search.cpan.org/dist/Process-Initgroups/   .*/Process-Initgroups-v?(\d[\d.-]+)\.(?:tar(?:\.gz|\.bz2)?|tgz|zip)$
